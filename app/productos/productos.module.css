@@ -1,0 +1,39 @@
+.div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.title {
+    grid-column-start: span 4;
+}
+
+.item {
+    border: solid 1px white;
+    padding: 10px;
+}
+
+.item h3 {
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+.item p {
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+.img {
+    width: 100%;
+}

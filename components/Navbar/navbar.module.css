@@ -1,0 +1,59 @@
+.div {
+    backdrop-filter: blur(5px);
+    background-color: rgba(9, 14, 18, 0.5);  
+    border-bottom: solid 1px gray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 5;
+    font-size: 13px;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    
+    line-height: 50px;
+}
+
+.links {
+    line-height: 50px;
+}
+
+.botones {
+    line-height: 50px;
+    text-align: right;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.boton {
+    border: solid 1px white;
+    padding: 10px;
+    margin-left: 10px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: white;
+    color: black;
+}
