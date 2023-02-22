@@ -9,7 +9,7 @@ import Lateral from '@/components/Lateral/Lateral'
 const links = [
     {
         label: 'INICIO',
-        route: '/'
+        route: ''
     },
     {
         label: 'PRODUCTOS',
